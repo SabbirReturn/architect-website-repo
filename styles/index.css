@@ -1,3 +1,9 @@
+*{
+    /* margin: 0; */
+}
+.header-part{
+    background-color: #f4eee6;
+}
 .navbar-container{
     max-width: 1300px;
     margin: 0px auto;
