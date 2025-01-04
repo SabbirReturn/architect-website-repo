@@ -1,0 +1,21 @@
+.navbar-container{
+    max-width: 1300px;
+    margin: 0px auto;
+    border: 1px solid red;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    margin-right: 100px;
+}
