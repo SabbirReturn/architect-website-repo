@@ -9,7 +9,7 @@ body{
 .navbar-container, .bannner-container{
     max-width: 1300px;
     margin: 0px auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 nav h1{
     font-family: Arial;
@@ -88,8 +88,27 @@ nav ul li a{
   .banner-picture{
     width: 100%;
   }
+  .explore-more-container{
+    max-width: 1300px;
+    margin: 0px auto;
+    /* border: 1px solid red; */
+    margin-top: 30px;
+  }
+  .explore-more{
+    display: flex;
+    align-items: center;
+  }
+  .explore-more-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10PX;
+  }
+  .explore-more-details{
+    margin-left: 40px;
+    text-align: center;
+  }
 
-/* medium screen responsive */
+/* small screen responsive */
 @media screen and (max-width:576px) {
     nav{
         flex-direction: column;
@@ -106,5 +125,17 @@ nav ul li a{
     .banner-description{
         text-align: center;
         padding: 0px 10px;
+    }
+    .explore-more-img{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 10PX;
+    }
+    .explore-more{
+        flex-direction: column-reverse;
+    }
+    .explore-more-details{
+        margin-left: 0px;
+        
     }
 }
