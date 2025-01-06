@@ -107,15 +107,16 @@ nav ul li a{
     margin-left: 40px;
     text-align: center;
   }
+  .experience-details{
+    max-width: 1300px;
+    margin: 0px auto;
+  }
   .experience-container{
     display: flex;
     margin-top: 70px;
     gap: 80px;
-    /* align-items: center; */
-    max-width: 1300px;
-    margin: 0px auto;
-    /* border: 1px solid red; */
     margin-top: 30px;
+    position: relative;
   }
   
   .Feature-title{
@@ -166,49 +167,50 @@ nav ul li a{
 /* small screen responsive */
 @media screen and (max-width:576px) {
     nav{
-        flex-direction: column;
+      flex-direction: column;
     }
     nav ul li a{
-        margin-right: 20px;
+      margin-right: 20px;
     }
     .banner-title{
-        text-align: center;
-        font-size: 2rem;
-        padding: 0px;
+      text-align: center;
+      font-size: 2rem;
+      padding: 0px;
         
     }
     .banner-description{
-        text-align: center;
-        padding: 0px 10px;
+      text-align: center;
+      padding: 0px 10px;
     }
     .explore-more-img{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        gap: 10PX;
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      gap: 10PX;
     }
     .explore-more{
-        flex-direction: column-reverse;
+      flex-direction: column-reverse;
     }
     .explore-more-details{
-        margin-left: 0px;   
+      margin-left: 0px;   
     }
     .experience-container{
-        flex-direction: column;
-        margin-top: 30px;
-        gap: 20px;
+      flex-direction: column;
+      margin-top: 30px;
+      gap: 20px;
     }
     .experience-image{
-        height: 500px;
-        width: 380px;
-        margin-left: 5px;
+      height: 500px;
+      width: 380px;
+      margin-left: 5px;
     }
     .Feature-description{
-        padding: 0px 10px;
+      padding: 0px 10px;
       }
     .Feature-title{
-        margin-right: 150px;
+      margin-right: 150px;
     }
     .card:hover {
-        border: 2px solid #5c849e;
+      border: 2px solid #5c849e;
     }
+    
 }
