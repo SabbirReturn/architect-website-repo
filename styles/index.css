@@ -211,9 +211,15 @@ nav ul li a{
     max-width: 1300px;
     margin: 0px auto;
   }
+  .some-fact > div{
+    margin-top: 50px;
+  }
   .some-fact h1,p{
     text-align: center;
     color: #727272;
+  }
+  .some-fact-title{
+    color:#131313 ;
   }
   .icons-container{
     display: flex;
@@ -229,6 +235,16 @@ nav ul li a{
   }
   .icon img{
     margin-top: 20px;
+  }
+  .Sponsors{
+    max-width:1300px ;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .sponsors-icon{
+    display: flex;
+    justify-content: space-around;
   }
 /* small screen responsive */
 @media screen and (max-width:576px) {
@@ -290,6 +306,9 @@ nav ul li a{
       max-width: 1300px;
       margin: 0px;
     }
+    .some-fact > div{
+      margin-top: 10px;
+    }
     .icons-container{
       flex-direction: column;
       margin-left: 10px
@@ -299,5 +318,14 @@ nav ul li a{
       border-radius: 10px;
       width: 300px;
       margin-left: 30px;
+    }
+    .sponsors-icon{
+      flex-direction: column;
+    }
+    .sponsors-icon img{
+      margin-bottom: 30px;
+      /* border: 1px solid rebeccapurple; */
+      width: 300px;
+      margin-left: 40px;
     }
 }
