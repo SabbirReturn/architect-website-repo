@@ -246,6 +246,18 @@ nav ul li a{
     display: flex;
     justify-content: space-around;
   }
+  footer{
+    background-color: #2980b9;
+    max-width: 1300px;
+    margin: 0px auto;
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  footer > p{
+    color: white;
+    padding-top: 15px;
+  }
 /* small screen responsive */
 @media screen and (max-width:576px) {
     nav{
@@ -327,5 +339,11 @@ nav ul li a{
       /* border: 1px solid rebeccapurple; */
       width: 300px;
       margin-left: 40px;
+    }
+    footer{
+      margin-left: 10px;
+    }
+    footer > p{
+      padding-top: 10px;
     }
 }
