@@ -207,6 +207,29 @@ nav ul li a{
   .secondary-btn button:hover::before {
     transform: scaleX(1);
   }
+  .some-fact{
+    max-width: 1300px;
+    margin: 0px auto;
+  }
+  .some-fact h1,p{
+    text-align: center;
+    color: #727272;
+  }
+  .icons-container{
+    display: flex;
+    /* text-align: center; */
+    margin-left: 50px;
+    justify-content: space-around;
+  }
+  .icon{
+    border: 1px solid #2980b9;
+    text-align: center;
+    width: 300px;
+    border-radius: 10px;
+  }
+  .icon img{
+    margin-top: 20px;
+  }
 /* small screen responsive */
 @media screen and (max-width:576px) {
     nav{
@@ -263,5 +286,18 @@ nav ul li a{
     .secondary-btn button{
       height: 50%;
     }
-    
+    .some-fact{
+      max-width: 1300px;
+      margin: 0px;
+    }
+    .icons-container{
+      flex-direction: column;
+      margin-left: 10px
+    }
+    .icon{
+      margin-bottom: 10px;
+      border-radius: 10px;
+      width: 300px;
+      margin-left: 30px;
+    }
 }
